@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#header{
+    background-image: url(./imagens/header.svg);
+    padding-bottom: 150px;
+}
+
+#logo{
+    width: 90px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo_menu_superior{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#subtitulo_menu_superior{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+
+#menu_informacional{
+    background-color: #EAECE5;
+    height: 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.divs_menu_informacional{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.divs_menu_informacional p{
+    margin-left: 15px;
+    color: black;
+    font-size: 14px;
+}
+
+.divs_menu_informacional img{
+    width: 25px;
+}
+
+#video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    margin: 0 100px;
+    padding: 70px 0px;
+}
+
+#video p{
+    color: black;
+    margin-left: 100px;
+}
+
+#video h2{
+    color: #247BA0;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 70px 0px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carrossel h2{
+    margin-bottom: 40px;
+}
+
+#div_card{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-left: 80px;;
+}
+
+.card{
+    margin-right: 25px;
+}
+
+#seta_esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#formulario h2{
+    color: #383838;
+    margin-bottom: 40px;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 25px; 
+    width: 350px;
+    background-color: #EAECE5;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    color: #383838;
+}
+
+button{
+    width: 300px;
+    text-align: center;
+    background-color: #247BA0;
+    color: #EAECE5;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-attachment: #318fb8;
+    color: #FFFFFF;
+    transform: translateY(-7);
+    box-shadow: 0px 10px 15px #3838387c;
+}
